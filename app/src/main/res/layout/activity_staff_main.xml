@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:backgroundTint="#F1F9FF"
+    tools:context=".StaffMainActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/healthify_light"
+        android:textColor="@color/lisseblue"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:onClick="onClickLogout"
+        android:background="@drawable/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/rectangle" />
+
+    <Button
+        android:id="@+id/btnSentarCliente"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/lisseblue"
+        android:background="@drawable/mainbutton"
+        app:layout_constraintEnd_toStartOf="@+id/btnRelogioDePonto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btnReservarMesa"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/mainbutton"
+        android:backgroundTint="@color/lisseblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRelogioDePonto" />
+
+    <Button
+        android:id="@+id/btnLibertarMesa"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:background="@drawable/mainbutton"
+        android:backgroundTint="@color/lisseblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnReservarMesa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSentarCliente" />
+
+    <Button
+        android:id="@+id/btnRelogioDePonto"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:backgroundTint="@color/lisseblue"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="onClickRelogioPonto"
+        android:background="@drawable/mainbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="86dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/roundcorner"
+        android:scaleType="fitCenter"
+        android:onClick="onClickPerfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:src="@drawable/default_user" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="@string/welcome"
+        android:textColor="@color/lisseblue"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/tvUserNameGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/lisseblue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <ImageView
+        android:id="@+id/ivSentarCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qr_code_76"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="@+id/btnSentarCliente"
+        app:layout_constraintStart_toStartOf="@+id/btnSentarCliente"
+        app:layout_constraintTop_toTopOf="@+id/btnSentarCliente"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <ImageView
+        android:id="@+id/ivSentarCliente2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qr_code_76"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="@+id/btnLibertarMesa"
+        app:layout_constraintStart_toStartOf="@+id/btnLibertarMesa"
+        app:layout_constraintTop_toTopOf="@+id/btnLibertarMesa" />
+
+    <ImageView
+        android:id="@+id/ivSentarCliente3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qr_code_76"
+        app:layout_constraintBottom_toTopOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/btnReservarMesa"
+        app:layout_constraintStart_toStartOf="@+id/btnReservarMesa"
+        app:layout_constraintTop_toTopOf="@+id/btnReservarMesa" />
+
+    <ImageView
+        android:id="@+id/ivRelogioPonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/relogio"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="@+id/btnRelogioDePonto"
+        app:layout_constraintStart_toStartOf="@+id/btnRelogioDePonto"
+        app:layout_constraintTop_toTopOf="@+id/btnRelogioDePonto"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Registar\nCliente"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSentarCliente"
+        app:layout_constraintEnd_toEndOf="@+id/btnSentarCliente"
+        app:layout_constraintStart_toStartOf="@+id/btnSentarCliente" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Libertar\nMesa"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLibertarMesa"
+        app:layout_constraintEnd_toEndOf="@+id/btnLibertarMesa"
+        app:layout_constraintStart_toStartOf="@+id/btnLibertarMesa" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Reservar\nMesa"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnReservarMesa"
+        app:layout_constraintEnd_toEndOf="@+id/btnReservarMesa"
+        app:layout_constraintStart_toStartOf="@+id/btnReservarMesa" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Relógio\nde Pronto"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnRelogioDePonto"
+        app:layout_constraintEnd_toEndOf="@+id/btnRelogioDePonto"
+        app:layout_constraintStart_toStartOf="@+id/btnRelogioDePonto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

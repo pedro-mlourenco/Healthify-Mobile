@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Healthify</string>
+    <string name="et_email">Email</string>
+    <string name="et_password">Palavra Passe</string>
+    <string name="btn_login">Login</string>
+    <string name="erro_password">Palavra passe errada</string>
+    <string name="erro_email">Email não registado</string>
+    <string name="login_as_guest">Login as GUEST</string>
+    <string name="btn_register">Registar</string>
+    <string name="healthify_caps">HEALTHIFY</string>
+    <string name="title_activity_drawer">activity_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="healthify_light">Healthify</string>
+    <string name="purchase">Purchase</string>
+    <string name="valid">Form is valid</string>
+    <string name="invalid">Form is invalid</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TextPreco">Preço:</string>
+    <string name="colocar_pedido">COLOCAR PEDIDO</string>
+    <string name="add_card">Adicionar Cartao</string>
+    <string name="adicionar_cartao">Adicionar Cartão</string>
+    <string name="numero_cart_o">Numero Cartão</string>
+    <string name="nome_cart_o">Nome Cartão</string>
+    <string name="cvv">Cvv</string>
+    <string name="mes">Mes</string>
+    <string name="ano">Ano</string>
+    <string name="adicionar_metodo">Adicionar Método de Pagamento</string>
+    <string name="welcome">WELCOME</string>
+    <string name="pedir_na_nmesa">Pedir na \nMesa</string>
+    <string name="entrega_ao_ndomicilio">Entrega ao \nDomicilio</string>
+    <string name="ementa">Ementa</string>
+    <string name="takeaway">Takeaway</string>
+</resources>

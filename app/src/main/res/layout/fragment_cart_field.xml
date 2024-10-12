@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/productboxes">
+
+
+        <TextView
+            android:id="@+id/tvDateHist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:padding="2dp"
+            android:text="Nome do Prato"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvIdHist"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="invisible"
+            tools:layout_editor_absoluteX="354dp"
+            tools:layout_editor_absoluteY="43dp" />
+
+        <TextView
+            android:id="@+id/quantidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="Quantidade: "
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDateHist" />
+
+        <TextView
+            android:id="@+id/tvMetodopagamentoHist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Valor"
+            app:layout_constraintStart_toEndOf="@+id/quantidade"
+            app:layout_constraintTop_toBottomOf="@+id/tvDateHist" />
+
+        <TextView
+            android:id="@+id/tvPriceHist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="Valor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvPreco"
+            app:layout_constraintTop_toBottomOf="@+id/tvMetodopagamentoHist" />
+
+        <TextView
+            android:id="@+id/tvPreco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/TextPreco"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/quantidade" />
+
+        <ImageButton
+            android:id="@+id/btAddCartitem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/roundcorner"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add_button"
+            android:clickable="true"
+            android:focusable="true"
+            android:descendantFocusability="blocksDescendants"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <ImageButton
+            android:id="@+id/btSubFromCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/roundcorner"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants"
+            android:focusable="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sub_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btAddCartitem" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

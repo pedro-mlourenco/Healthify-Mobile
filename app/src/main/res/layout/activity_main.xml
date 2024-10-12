@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:backgroundTint="#F1F9FF">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/healthify_light"
+        android:textColor="@color/lisseblue"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:onClick="onClickLogout"
+        android:background="@drawable/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/rectangle" />
+
+    <Button
+        android:id="@+id/btnTakeaway"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/mainbutton"
+        android:backgroundTint="@color/lisseblue"
+        android:onClick="onClickGetTakeAway"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEmenta"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/btnEntregaDomicilio"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/mainbutton"
+        android:backgroundTint="@color/bt_light_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnTakeaway"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPedirNaMesa"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/btnPedirNaMesa"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="onClickScan"
+        android:backgroundTint="@color/lisseblue"
+        android:background="@drawable/mainbutton"
+        app:layout_constraintEnd_toStartOf="@+id/btnEmenta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <Button
+        android:id="@+id/btnEmenta"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:backgroundTint="@color/lisseblue"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="onClickEmenta"
+        android:background="@drawable/mainbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="86dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/roundcorner"
+        android:scaleType="fitCenter"
+        android:onClick="onClickPerfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:src="@drawable/default_user" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="@string/welcome"
+        android:textColor="@color/lisseblue"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/tvUserNameGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/lisseblue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qr_code_76"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="@+id/btnPedirNaMesa"
+        app:layout_constraintStart_toStartOf="@+id/btnPedirNaMesa"
+        app:layout_constraintTop_toTopOf="@+id/btnPedirNaMesa"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/meal_svgrepo_com"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="@+id/btnEmenta"
+        app:layout_constraintStart_toStartOf="@+id/btnEmenta"
+        app:layout_constraintTop_toTopOf="@+id/btnEmenta"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/places"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="@+id/btnEntregaDomicilio"
+        app:layout_constraintStart_toStartOf="@+id/btnEntregaDomicilio"
+        app:layout_constraintTop_toTopOf="@+id/btnEntregaDomicilio"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/take_away_svgrepo_com"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="@+id/btnTakeaway"
+        app:layout_constraintStart_toStartOf="@+id/btnTakeaway"
+        app:layout_constraintTop_toTopOf="@+id/btnTakeaway"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/pedir_na_nmesa"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPedirNaMesa"
+        app:layout_constraintEnd_toEndOf="@+id/btnPedirNaMesa"
+        app:layout_constraintStart_toStartOf="@+id/btnPedirNaMesa" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/ementa"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnEmenta"
+        app:layout_constraintEnd_toEndOf="@+id/btnEmenta"
+        app:layout_constraintStart_toStartOf="@+id/btnEmenta" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/entrega_ao_ndomicilio"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnEntregaDomicilio"
+        app:layout_constraintEnd_toEndOf="@+id/btnEntregaDomicilio"
+        app:layout_constraintStart_toStartOf="@+id/btnEntregaDomicilio" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/takeaway"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTakeaway"
+        app:layout_constraintEnd_toEndOf="@+id/btnTakeaway"
+        app:layout_constraintStart_toStartOf="@+id/btnTakeaway" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

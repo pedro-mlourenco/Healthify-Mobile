@@ -1,0 +1,352 @@
+<resources>
+    <string-array name="planets_array">
+        <item>Abrantes</item>
+        <item>Agualva</item>
+        <item>Águeda</item>
+        <item>Aguiar da Beira</item>
+        <item>Alandroal</item>
+        <item>Albergaria-a-Velha</item>
+        <item>Albufeira</item>
+        <item>Alcanena</item>
+        <item>Alcobaça</item>
+        <item>Alcochete</item>
+        <item>Alcoutim</item>
+        <item>Alcácer do Sal</item>
+        <item>Alenquer</item>
+        <item>Alfena</item>
+        <item>Alfândega da Fé</item>
+        <item>Alijó</item>
+        <item>Aljezur</item>
+        <item>Aljustrel</item>
+        <item>Almada</item>
+        <item>Almargem</item>
+        <item>Almeida</item>
+        <item>Almeirim</item>
+        <item>Almodôvar</item>
+        <item>Alpiarça</item>
+        <item>Alter do Chão</item>
+        <item>Alvaiázere</item>
+        <item>Alvito</item>
+        <item>Amadora</item>
+        <item>Amarante</item>
+        <item>Amares</item>
+        <item>Amora</item>
+        <item>Anadia</item>
+        <item>Angra do Heroísmo</item>
+        <item>Ansião</item>
+        <item>Arcos de Valdevez</item>
+        <item>Arcozelo</item>
+        <item>Arcozelo</item>
+        <item>Arganil</item>
+        <item>Argoncilhe</item>
+        <item>Armamar</item>
+        <item>Armação de Pêra</item>
+        <item>Arouca</item>
+        <item>Arraiolos</item>
+        <item>Arronches</item>
+        <item>Arruda dos Vinhos</item>
+        <item>Aveiro</item>
+        <item>Aver-o-Mar</item>
+        <item>Avis</item>
+        <item>Azambuja</item>
+        <item>Baião</item>
+        <item>Barcelos</item>
+        <item>Barrancos</item>
+        <item>Barreiro</item>
+        <item>Batalha</item>
+        <item>Beja</item>
+        <item>Belmonte</item>
+        <item>Benavente</item>
+        <item>Bombarral</item>
+        <item>Borba</item>
+        <item>Boticas</item>
+        <item>Braga</item>
+        <item>Bragança</item>
+        <item>Cabeceiras de Basto</item>
+        <item>Cacém</item>
+        <item>Cadaval</item>
+        <item>Caldas da Rainha</item>
+        <item>Calheta</item>
+        <item>Calheta</item>
+        <item>Caminha</item>
+        <item>Campo Maior</item>
+        <item>Canas de Senhorim</item>
+        <item>Caniço</item>
+        <item>Cantanhede</item>
+        <item>Caranguejeira</item>
+        <item>Carrazeda de Anciães</item>
+        <item>Carregal do Sal</item>
+        <item>Cartaxo</item>
+        <item>Carvoeiro</item>
+        <item>Cascais</item>
+        <item>Castanheira de Pêra</item>
+        <item>Castelo Branco</item>
+        <item>Castelo de Paiva</item>
+        <item>Castelo de Vide</item>
+        <item>Castelões de Cepeda</item>
+        <item>Castro Daire</item>
+        <item>Castro Marim</item>
+        <item>Castro Verde</item>
+        <item>Celeiroz</item>
+        <item>Celorico da Beira</item>
+        <item>Celorico de Basto</item>
+        <item>Chamusca</item>
+        <item>Chaves</item>
+        <item>Cinfães</item>
+        <item>Coimbra</item>
+        <item>Condeixa-a-Nova</item>
+        <item>Constância</item>
+        <item>Corroios</item>
+        <item>Coruche</item>
+        <item>Costa de Caparica</item>
+        <item>Covilhã</item>
+        <item>Crato</item>
+        <item>Cuba</item>
+        <item>Câmara de Lobos</item>
+        <item>Elvas</item>
+        <item>Entroncamento</item>
+        <item>Ermezinde</item>
+        <item>Espinho</item>
+        <item>Esposende</item>
+        <item>Estarreja</item>
+        <item>Estoril</item>
+        <item>Estremoz</item>
+        <item>Évora</item>
+        <item>Fafe</item>
+        <item>Falagueira</item>
+        <item>Famalicão</item>
+        <item>Faro</item>
+        <item>Feira</item>
+        <item>Felgueiras</item>
+        <item>Fermentelos</item>
+        <item>Ferreira do Alentejo</item>
+        <item>Ferreira do Zêzere</item>
+        <item>Ferreiros</item>
+        <item>Figueira da Foz</item>
+        <item>Figueira de Castelo Rodrigo</item>
+        <item>Figueiró dos Vinhos</item>
+        <item>Fornos de Algodres</item>
+        <item>Freixo de Espada à Cinta</item>
+        <item>Fronteira</item>
+        <item>Funchal</item>
+        <item>Fundão</item>
+        <item>Gafanha da Nazaré</item>
+        <item>Gavião</item>
+        <item>Golegã</item>
+        <item>Gondomar</item>
+        <item>Gouveia</item>
+        <item>Grândola</item>
+        <item>Guarda</item>
+        <item>Guimarães</item>
+        <item>Góis</item>
+        <item>Horta</item>
+        <item>Idanha-a-Nova</item>
+        <item>Ílhavo</item>
+        <item>Joane</item>
+        <item>Lagoa</item>
+        <item>Lagos</item>
+        <item>Lajes</item>
+        <item>Lamego</item>
+        <item>Leiria</item>
+        <item>Lisbon</item>
+        <item>Lorvão</item>
+        <item>Loulé</item>
+        <item>Loures</item>
+        <item>Lourinhã</item>
+        <item>Lousada</item>
+        <item>Lousã</item>
+        <item>Macedo de Cavaleiros</item>
+        <item>Madalena</item>
+        <item>Mafamude</item>
+        <item>Mafra</item>
+        <item>Maia</item>
+        <item>Mangualde</item>
+        <item>Manteigas</item>
+        <item>Marco de Canavezes</item>
+        <item>Marinha Grande</item>
+        <item>Marvão</item>
+        <item>Massamá</item>
+        <item>Matosinhos</item>
+        <item>Mação</item>
+        <item>Mealhada</item>
+        <item>Melgaço</item>
+        <item>Mesão Frio</item>
+        <item>Mira</item>
+        <item>Miranda do Corvo</item>
+        <item>Miranda do Douro</item>
+        <item>Mirandela</item>
+        <item>Mogadouro</item>
+        <item>Moimenta da Beira</item>
+        <item>Moita</item>
+        <item>Monchique</item>
+        <item>Mondim de Basto</item>
+        <item>Monforte</item>
+        <item>Montalegre</item>
+        <item>Montemor-o-Novo</item>
+        <item>Montemor-o-Velho</item>
+        <item>Montijo</item>
+        <item>Monção</item>
+        <item>Mora</item>
+        <item>Mortágua</item>
+        <item>Moura</item>
+        <item>Mourão</item>
+        <item>Murtosa</item>
+        <item>Murça</item>
+        <item>Mértola</item>
+        <item>Mêda</item>
+        <item>Nazaré</item>
+        <item>Nelas</item>
+        <item>Nisa</item>
+        <item>Nordeste</item>
+        <item>Óbidos</item>
+        <item>Odemira</item>
+        <item>Odivelas</item>
+        <item>Oeiras</item>
+        <item>Oleiros</item>
+        <item>Olhão</item>
+        <item>Olival</item>
+        <item>Oliveira de Azemeis</item>
+        <item>Oliveira de Frades</item>
+        <item>Oliveira do Bairro</item>
+        <item>Oliveira do Hospital</item>
+        <item>Ourique</item>
+        <item>Ourém</item>
+        <item>Ovar</item>
+        <item>Palmela</item>
+        <item>Pampilhosa da Serra</item>
+        <item>Paredes</item>
+        <item>Paredes de Coura</item>
+        <item>Paços de Ferreira</item>
+        <item>Pedrógão Grande</item>
+        <item>Penacova</item>
+        <item>Penafiel</item>
+        <item>Penalva do Castelo</item>
+        <item>Penamacor</item>
+        <item>Penedono</item>
+        <item>Penela</item>
+        <item>Peniche</item>
+        <item>Peso da Régua</item>
+        <item>Pinhel</item>
+        <item>Poiares</item>
+        <item>Pombal</item>
+        <item>Ponta Delgada</item>
+        <item>Ponta do Sol</item>
+        <item>Ponte da Barca</item>
+        <item>Ponte de Lima</item>
+        <item>Ponte de Sôr</item>
+        <item>Portalegre</item>
+        <item>Portel</item>
+        <item>Portimão</item>
+        <item>Porto</item>
+        <item>Porto de Mós</item>
+        <item>Povoação</item>
+        <item>Praia da Vitória</item>
+        <item>Proença-a-Nova</item>
+        <item>Póvoa de Lanhoso</item>
+        <item>Póvoa de Varzim</item>
+        <item>Quarteira</item>
+        <item>Queluz</item>
+        <item>Real</item>
+        <item>Redondo</item>
+        <item>Reguengos de Monsaraz</item>
+        <item>Resende</item>
+        <item>Riachos</item>
+        <item>Riba de Ave</item>
+        <item>Ribeira Brava</item>
+        <item>Ribeira Grande</item>
+        <item>Ribeira de Pena</item>
+        <item>Rio Maior</item>
+        <item>Rio Tinto</item>
+        <item>Sabrosa</item>
+        <item>Sabugal</item>
+        <item>Sacavém</item>
+        <item>Salvaterra de Magos</item>
+        <item>Santa Comba Dão</item>
+        <item>Santa Cruz</item>
+        <item>Santa Cruz da Graciosa</item>
+        <item>Santa Marta de Penaguião</item>
+        <item>Santana</item>
+        <item>Santarém</item>
+        <item>Santiago do Cacém</item>
+        <item>Santo Tirso</item>
+        <item>Sardoal</item>
+        <item>Seia</item>
+        <item>Seixal</item>
+        <item>Sernancelhe</item>
+        <item>Serpa</item>
+        <item>Sertã</item>
+        <item>Sesimbra</item>
+        <item>Setúbal</item>
+        <item>Sever do Vouga</item>
+        <item>Silves</item>
+        <item>Sines</item>
+        <item>Sintra</item>
+        <item>Sobral de Monte Agraço</item>
+        <item>Soure</item>
+        <item>Sousel</item>
+        <item>Sátão</item>
+        <item>São Brás de Alportel</item>
+        <item>São João da Madeira</item>
+        <item>São João da Pesqueira</item>
+        <item>São Martinho</item>
+        <item>São Pedro do Sul</item>
+        <item>São Roque do Pico</item>
+        <item>São Vicente</item>
+        <item>Tabuaço</item>
+        <item>Tarouca</item>
+        <item>Tavira</item>
+        <item>Terras de Bouro</item>
+        <item>Terrujem</item>
+        <item>Tomar</item>
+        <item>Tondela</item>
+        <item>Torre de Moncorvo</item>
+        <item>Torres Novas</item>
+        <item>Torres Vedras</item>
+        <item>Tramagal</item>
+        <item>Trancoso</item>
+        <item>Trofa</item>
+        <item>Trofa</item>
+        <item>Trofa</item>
+        <item>Trouxemil</item>
+        <item>Tábua</item>
+        <item>Vagos</item>
+        <item>Valadares</item>
+        <item>Valado de Frades</item>
+        <item>Vale de Cambra</item>
+        <item>Valença</item>
+        <item>Valongo</item>
+        <item>Valpaços</item>
+        <item>Velas</item>
+        <item>Vendas Novas</item>
+        <item>Viana do Alentejo</item>
+        <item>Viana do Castelo</item>
+        <item>Vidigueira</item>
+        <item>Vieira do Minho</item>
+        <item>Vila Flor</item>
+        <item>Vila Franca de Xira</item>
+        <item>Vila Franca do Campo</item>
+        <item>Vila Nova da Barquinha</item>
+        <item>Vila Nova de Cerveira</item>
+        <item>Vila Nova de Foz Côa</item>
+        <item>Vila Nova de Gaia</item>
+        <item>Vila Nova de Milfontes</item>
+        <item>Vila Nova de Paiva</item>
+        <item>Vila Pouca de Aguiar</item>
+        <item>Vila Real</item>
+        <item>Vila Real de Santo António</item>
+        <item>Vila Velha de Ródão</item>
+        <item>Vila Verde</item>
+        <item>Vila Viçosa</item>
+        <item>Vila de Porto Santo</item>
+        <item>Vila de Rei</item>
+        <item>Vila do Bispo</item>
+        <item>Vila do Conde</item>
+        <item>Vila do Porto</item>
+        <item>Vimioso</item>
+        <item>Vinhais</item>
+        <item>Viseu</item>
+        <item>Vizela</item>
+        <item>Vizela</item>
+        <item>Vouzela</item>
+    </string-array>
+</resources>
