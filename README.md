@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Knowledge-Hoarder/Healthify-Mobile.git">
-    <img src="iapp\src\main\ic_healthify-playstore.png" alt="Logo" width="80" height="80" style="border-radius: 30%">
+    <img src="app\src\main\ic_healthify-playstore.png" alt="Logo" width="80" height="80" style="border-radius: 30%">
   </a>
 
 <h3 align="center">Healthify Web Platform</h3>
