@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Knowledge-Hoarder/Healthify-Mobile.git">
+  <a href="https://github.com/pedro-mlourenco/Healthify-Mobile.git">
     <img src="app\src\main\ic_healthify-playstore.png" alt="Logo" width="80" height="80" style="border-radius: 30%">
   </a>
 
